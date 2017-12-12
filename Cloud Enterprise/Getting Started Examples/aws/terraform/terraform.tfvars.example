@@ -1,7 +1,11 @@
-# See variables.tf for descriptions
+profile = "ecstaging"
 
-profile = "YOUR-AWS-PROFILE"
+trusted_network = "YOUR_IP/32"
 
-trusted_network = "YOUR-IP/32"
+name = "matschaffer-ece"
 
-name = "YOUR-NAME"
+zones = ["b"]
+
+remote_user = "ec2-user"
+
+user_data = "user_data_rhel.sh"
